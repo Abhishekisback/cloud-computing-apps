@@ -15,9 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         {process.env.REACT_APP_KEY}
         </a>
-        <p>{process.env.NEXT_PUBLIC_APP}</p>
       </header>
     </div>
   );
