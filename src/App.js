@@ -17,8 +17,10 @@ function App() {
         >
           {process.env.REACT_APP_KEY_APPNAME}
         </a>
-        
+
         <h1>V ~ {process.env.REACT_APP_KEY_VERSION}</h1>
+
+        <h2>Secret key ~ {process.env.REACT_APP_KEY_SECRETV}</h2>
 
       </header>
     </div>
