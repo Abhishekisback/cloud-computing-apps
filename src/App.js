@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>{process.env.NEXT_PUBLIC_APP}</p>
       </header>
     </div>
   );
